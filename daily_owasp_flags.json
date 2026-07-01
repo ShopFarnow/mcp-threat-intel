@@ -1,7 +1,64 @@
 {
   "generated_at": "2026-07-01T00:00:00Z",
   "source": "VerditNxtGen Ghost Swarm",
-  "total_runs": 23491,
-  "flags_detected": 0,
-  "daily_owasp_flags": []
+  "total_runs": 23809,
+  "flags_detected": 3,
+  "daily_owasp_flags": [
+    {
+      "flag": "LLM08",
+      "affected_tools": [
+        "ktx",
+        "hope-agent",
+        "socraticode",
+        "openclaude",
+        "piia-engram",
+        "graphify",
+        "hermes-studio",
+        "webclaw",
+        "patter",
+        "aimock",
+        "vibe-trading",
+        "openbiliclaw",
+        "yourmemory",
+        "ainovel-cli",
+        "openosint",
+        "statewave",
+        "mempalace",
+        "pinchtab",
+        "career-ops",
+        "auto-browser",
+        "cairn",
+        "boss-agent-cli",
+        "cloakbrowser-manager",
+        "obscura",
+        "agentrq",
+        "pggraph"
+      ],
+      "occurrences": 3204
+    },
+    {
+      "flag": "LLM09",
+      "affected_tools": [
+        "obscura",
+        "aimock",
+        "boss-agent-cli",
+        "graphify",
+        "auto-browser",
+        "cloakbrowser-manager"
+      ],
+      "occurrences": 446
+    },
+    {
+      "flag": "LLM03",
+      "affected_tools": [
+        "aimock",
+        "obscura",
+        "graphify",
+        "boss-agent-cli",
+        "auto-browser",
+        "cloakbrowser-manager"
+      ],
+      "occurrences": 296
+    }
+  ]
 }
